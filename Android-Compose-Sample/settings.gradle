@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url "https://genesysdx.jfrog.io/artifactory/genesysdx-android.dev/" }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://genesysdx.jfrog.io/artifactory/genesysdx-android.dev/" }
+    }
+}
+rootProject.name = "Compose Chat"
+include ':app'
