@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FEDA12428D8757200F3C83F /* ShmoogleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDA12328D8757200F3C83F /* ShmoogleApp.swift */; };
+		1FEDA12628D8757200F3C83F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDA12528D8757200F3C83F /* ContentView.swift */; };
+		1FEDA12828D8757500F3C83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEDA12728D8757500F3C83F /* Assets.xcassets */; };
+		1FEDA12B28D8757500F3C83F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEDA12A28D8757500F3C83F /* Preview Assets.xcassets */; };
+		1FEDA13528D8757500F3C83F /* ShmoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDA13428D8757500F3C83F /* ShmoogleTests.swift */; };
+		1FEDA13F28D8757500F3C83F /* ShmoogleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDA13E28D8757500F3C83F /* ShmoogleUITests.swift */; };
+		1FEDA14128D8757500F3C83F /* ShmoogleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDA14028D8757500F3C83F /* ShmoogleUITestsLaunchTests.swift */; };
+		1FEDA14E28D89B5700F3C83F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDA14D28D89B5700F3C83F /* ChatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FEDA13128D8757500F3C83F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FEDA11828D8757200F3C83F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEDA11F28D8757200F3C83F;
+			remoteInfo = Shmoogle;
+		};
+		1FEDA13B28D8757500F3C83F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FEDA11828D8757200F3C83F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEDA11F28D8757200F3C83F;
+			remoteInfo = Shmoogle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FEDA12028D8757200F3C83F /* Shmoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shmoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEDA12328D8757200F3C83F /* ShmoogleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShmoogleApp.swift; sourceTree = "<group>"; };
+		1FEDA12528D8757200F3C83F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FEDA12728D8757500F3C83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FEDA12A28D8757500F3C83F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FEDA13028D8757500F3C83F /* ShmoogleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShmoogleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEDA13428D8757500F3C83F /* ShmoogleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShmoogleTests.swift; sourceTree = "<group>"; };
+		1FEDA13A28D8757500F3C83F /* ShmoogleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShmoogleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEDA13E28D8757500F3C83F /* ShmoogleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShmoogleUITests.swift; sourceTree = "<group>"; };
+		1FEDA14028D8757500F3C83F /* ShmoogleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShmoogleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1FEDA14D28D89B5700F3C83F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FEDA11D28D8757200F3C83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEDA12D28D8757500F3C83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEDA13728D8757500F3C83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FEDA11728D8757200F3C83F = {
+			isa = PBXGroup;
+			children = (
+				1FEDA12228D8757200F3C83F /* Shmoogle */,
+				1FEDA13328D8757500F3C83F /* ShmoogleTests */,
+				1FEDA13D28D8757500F3C83F /* ShmoogleUITests */,
+				1FEDA12128D8757200F3C83F /* Products */,
+				DD26DC1346B8C7FEE73866BF /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1FEDA12128D8757200F3C83F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FEDA12028D8757200F3C83F /* Shmoogle.app */,
+				1FEDA13028D8757500F3C83F /* ShmoogleTests.xctest */,
+				1FEDA13A28D8757500F3C83F /* ShmoogleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FEDA12228D8757200F3C83F /* Shmoogle */ = {
+			isa = PBXGroup;
+			children = (
+				1FEDA12328D8757200F3C83F /* ShmoogleApp.swift */,
+				1FEDA12528D8757200F3C83F /* ContentView.swift */,
+				1FEDA12728D8757500F3C83F /* Assets.xcassets */,
+				1FEDA12928D8757500F3C83F /* Preview Content */,
+				1FEDA14D28D89B5700F3C83F /* ChatViewController.swift */,
+			);
+			path = Shmoogle;
+			sourceTree = "<group>";
+		};
+		1FEDA12928D8757500F3C83F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FEDA12A28D8757500F3C83F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FEDA13328D8757500F3C83F /* ShmoogleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEDA13428D8757500F3C83F /* ShmoogleTests.swift */,
+			);
+			path = ShmoogleTests;
+			sourceTree = "<group>";
+		};
+		1FEDA13D28D8757500F3C83F /* ShmoogleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEDA13E28D8757500F3C83F /* ShmoogleUITests.swift */,
+				1FEDA14028D8757500F3C83F /* ShmoogleUITestsLaunchTests.swift */,
+			);
+			path = ShmoogleUITests;
+			sourceTree = "<group>";
+		};
+		DD26DC1346B8C7FEE73866BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FEDA11F28D8757200F3C83F /* Shmoogle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEDA14428D8757500F3C83F /* Build configuration list for PBXNativeTarget "Shmoogle" */;
+			buildPhases = (
+				1FEDA11C28D8757200F3C83F /* Sources */,
+				1FEDA11D28D8757200F3C83F /* Frameworks */,
+				1FEDA11E28D8757200F3C83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shmoogle;
+			productName = Shmoogle;
+			productReference = 1FEDA12028D8757200F3C83F /* Shmoogle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FEDA12F28D8757500F3C83F /* ShmoogleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEDA14728D8757500F3C83F /* Build configuration list for PBXNativeTarget "ShmoogleTests" */;
+			buildPhases = (
+				1FEDA12C28D8757500F3C83F /* Sources */,
+				1FEDA12D28D8757500F3C83F /* Frameworks */,
+				1FEDA12E28D8757500F3C83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEDA13228D8757500F3C83F /* PBXTargetDependency */,
+			);
+			name = ShmoogleTests;
+			productName = ShmoogleTests;
+			productReference = 1FEDA13028D8757500F3C83F /* ShmoogleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FEDA13928D8757500F3C83F /* ShmoogleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEDA14A28D8757500F3C83F /* Build configuration list for PBXNativeTarget "ShmoogleUITests" */;
+			buildPhases = (
+				1FEDA13628D8757500F3C83F /* Sources */,
+				1FEDA13728D8757500F3C83F /* Frameworks */,
+				1FEDA13828D8757500F3C83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEDA13C28D8757500F3C83F /* PBXTargetDependency */,
+			);
+			name = ShmoogleUITests;
+			productName = ShmoogleUITests;
+			productReference = 1FEDA13A28D8757500F3C83F /* ShmoogleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FEDA11828D8757200F3C83F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1FEDA11F28D8757200F3C83F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1FEDA12F28D8757500F3C83F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1FEDA11F28D8757200F3C83F;
+					};
+					1FEDA13928D8757500F3C83F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1FEDA11F28D8757200F3C83F;
+					};
+				};
+			};
+			buildConfigurationList = 1FEDA11B28D8757200F3C83F /* Build configuration list for PBXProject "Shmoogle" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FEDA11728D8757200F3C83F;
+			productRefGroup = 1FEDA12128D8757200F3C83F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FEDA11F28D8757200F3C83F /* Shmoogle */,
+				1FEDA12F28D8757500F3C83F /* ShmoogleTests */,
+				1FEDA13928D8757500F3C83F /* ShmoogleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FEDA11E28D8757200F3C83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEDA12B28D8757500F3C83F /* Preview Assets.xcassets in Resources */,
+				1FEDA12828D8757500F3C83F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEDA12E28D8757500F3C83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEDA13828D8757500F3C83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FEDA11C28D8757200F3C83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEDA12628D8757200F3C83F /* ContentView.swift in Sources */,
+				1FEDA14E28D89B5700F3C83F /* ChatViewController.swift in Sources */,
+				1FEDA12428D8757200F3C83F /* ShmoogleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEDA12C28D8757500F3C83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEDA13528D8757500F3C83F /* ShmoogleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEDA13628D8757500F3C83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEDA14128D8757500F3C83F /* ShmoogleUITestsLaunchTests.swift in Sources */,
+				1FEDA13F28D8757500F3C83F /* ShmoogleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FEDA13228D8757500F3C83F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FEDA11F28D8757200F3C83F /* Shmoogle */;
+			targetProxy = 1FEDA13128D8757500F3C83F /* PBXContainerItemProxy */;
+		};
+		1FEDA13C28D8757500F3C83F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FEDA11F28D8757200F3C83F /* Shmoogle */;
+			targetProxy = 1FEDA13B28D8757500F3C83F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FEDA14228D8757500F3C83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FEDA14328D8757500F3C83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FEDA14528D8757500F3C83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shmoogle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesys.hack.Shmoogle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FEDA14628D8757500F3C83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shmoogle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesys.hack.Shmoogle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FEDA14828D8757500F3C83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesys.hack.ShmoogleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shmoogle.app/Shmoogle";
+			};
+			name = Debug;
+		};
+		1FEDA14928D8757500F3C83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesys.hack.ShmoogleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shmoogle.app/Shmoogle";
+			};
+			name = Release;
+		};
+		1FEDA14B28D8757500F3C83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesys.hack.ShmoogleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shmoogle;
+			};
+			name = Debug;
+		};
+		1FEDA14C28D8757500F3C83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesys.hack.ShmoogleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shmoogle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FEDA11B28D8757200F3C83F /* Build configuration list for PBXProject "Shmoogle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEDA14228D8757500F3C83F /* Debug */,
+				1FEDA14328D8757500F3C83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEDA14428D8757500F3C83F /* Build configuration list for PBXNativeTarget "Shmoogle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEDA14528D8757500F3C83F /* Debug */,
+				1FEDA14628D8757500F3C83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEDA14728D8757500F3C83F /* Build configuration list for PBXNativeTarget "ShmoogleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEDA14828D8757500F3C83F /* Debug */,
+				1FEDA14928D8757500F3C83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEDA14A28D8757500F3C83F /* Build configuration list for PBXNativeTarget "ShmoogleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEDA14B28D8757500F3C83F /* Debug */,
+				1FEDA14C28D8757500F3C83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FEDA11828D8757200F3C83F /* Project object */;
+}
